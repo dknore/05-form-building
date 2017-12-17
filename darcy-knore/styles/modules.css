@@ -76,4 +76,13 @@
     color: #29506D;
   }
 
+#preview {
+  height: 7em;
+  width: 100%;
+  margin-top: 1em;
+  border: 1px solid #ccc;
+}
+
+#published {
+  font-size: 1em;
 }

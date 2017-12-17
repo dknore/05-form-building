@@ -52,6 +52,7 @@ label {
 input {
   width: 100%;
   margin: .5em 0;
+  font-size: .75em;
   border: 1px solid #ccc;
   border-width: 0 0 1px 0;
   border-radius: 0;
@@ -60,13 +61,13 @@ input {
 input[type="checkbox"] {
   width: .28em;
   height: .28em;
-  font-size: 3em;
+  font-size: inherit;
 }
 
 textarea {
   width: 100%;
   margin: .5em 0;
-  font-size: 2em;
+  font-size: .75em;
   border: 1px solid #ccc;
   border-radius: 0;
 }
@@ -77,4 +78,9 @@ input:invalid, textarea:invalid {
 
 input:valid, textarea:valid {
   border-color: #89CB8E;
+}
+
+#published {
+  font-size: .75em;
+  color: #313131;
 }
